@@ -1,13 +1,6 @@
 package com.toolboxreborn.overlay.service
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.app.Service
-import android.content.Intent
-import android.os.Build
-import android.os.IBinder
-import android.view.WindowManager
-import androidx.core.app.NotificationCompat
-import com.toolboxreborn.overlay.ui.FloatingMenuManager
+import android.app.*; import android.content.Intent; import android.os.*; import android.view.WindowManager
+import androidx.core.app.NotificationCompat; import com.toolboxreborn.overlay.ui.FloatingMenuManager
 class OverlayService : Service() {
     private var m: FloatingMenuManager? = null
     override fun onCreate() {

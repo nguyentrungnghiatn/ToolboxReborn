@@ -1,9 +1,5 @@
 package com.toolboxreborn.overlay.ui
-import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.view.View
+import android.content.Context; import android.graphics.*; import android.view.View
 class CrosshairOverlayView(context: Context) : View(context) {
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = Color.parseColor("#00FF88"); strokeWidth = 3f; style = Paint.Style.STROKE }
     var crosshairSize = 24; var crosshairStyle = 0
