@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Toolbox Reborn</string>
+    <string name="start_overlay">Bật Floating HUD</string>
+    <string name="stop_overlay">Tắt Floating HUD</string>
+</resources>
